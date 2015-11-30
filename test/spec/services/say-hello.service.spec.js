@@ -29,4 +29,15 @@ describe('service: original resource', function () {
     expect(onError.run).toHaveBeenCalled();
   });
 
+  it('should log an error of false if there was an error', function () {
+    $httpBackend.expect('GET', '/say-goodbye').respond(400, ['error']);
+    var onError = {
+      run: function(response) {}
+    }
+    SayHello.sayGoodbye(onError.run);
+    $httpBackend.flush();
+    expect(SayHello.saidGoodbye).toBe(false);
+  });
+
+
 });

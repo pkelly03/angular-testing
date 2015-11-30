@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5ac5b8-fa2e-46b8-a075-e4a6d92328d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/say-hello.service.js" afterPath="$PROJECT_DIR$/app/scripts/services/say-hello.service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/services/say-hello.service.spec.js" afterPath="$PROJECT_DIR$/test/spec/services/say-hello.service.spec.js" />
     </list>
     <ignored path="angular-service-test.iws" />
@@ -33,9 +32,11 @@
           <file leaf-file-name="say-hello.service.spec.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/spec/services/say-hello.service.spec.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7758621" vertical-offset="23" max-vertical-offset="494">
-                  <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-                  <folding />
+                <state vertical-scroll-proportion="0.8719212" vertical-offset="23" max-vertical-offset="507">
+                  <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#625#942#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -47,7 +48,7 @@
           <file leaf-file-name="say-hello.service.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/scripts/services/say-hello.service.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8004926" vertical-offset="0" max-vertical-offset="559">
+                <state vertical-scroll-proportion="0.7364532" vertical-offset="26" max-vertical-offset="559">
                   <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
                   <folding />
                 </state>
@@ -669,12 +670,12 @@
       <option name="number" value="Default" />
       <updated>1448915473073</updated>
       <workItem from="1448915473710" duration="637000" />
-      <workItem from="1448916152370" duration="649000" />
+      <workItem from="1448916152370" duration="783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1286000" />
+    <option name="totallyTimeSpent" value="1420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
@@ -735,7 +736,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="429">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="e#625#942#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -814,7 +817,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/say-hello.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8004926" vertical-offset="0" max-vertical-offset="559">
+        <state vertical-scroll-proportion="0.7364532" vertical-offset="26" max-vertical-offset="559">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
@@ -822,9 +825,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/services/say-hello.service.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7758621" vertical-offset="23" max-vertical-offset="494">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.8719212" vertical-offset="23" max-vertical-offset="507">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#625#942#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
