@@ -7,14 +7,21 @@ describe('service: original resource', function () {
   beforeEach(inject(function ($injector) {
     $httpBackend = $injector.get('$httpBackend');
     $rootScope = $injector.get('$rootScope');
-    OriginalResource = $injector.get('SayHello');
+    SayHello = $injector.get('SayHello');
   }));
 
   it('should send a request to say hello', function () {
     $httpBackend.expect('GET', '/say-hello').respond(200, 'success');
-    OriginalResource.sayHello("your name");
+    SayHello.sayHello("your name");
     $httpBackend.flush();
-    expect(OriginalResource.saidHello).toBe(true);
+    expect(SayHello.saidHello).toBe(true);
+  });
+
+  it('should send a request to say goodbye', function () {
+    $httpBackend.expect('GET', '/say-goodbye').respond(200, 'success');
+      SayHello.sayGoodbye();
+    $httpBackend.flush();
+    expect(SayHello.saidGoodbye).toBe(true);
   });
 
 });
