@@ -18,9 +18,12 @@ angular.module('angularServiceTestApp').service('SayHello', function ($resource)
     );
   }
 
-  this.sayGoodbye = function () {
+  this.sayGoodbye = function (onError) {
     return resource2.query({}).$promise.then(
       function (response) {
+        if (onError) {
+          onError(response);
+        }
         self.saidGoodbye = true;
         console.log('success!');
       },

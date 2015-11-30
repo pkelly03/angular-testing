@@ -18,10 +18,15 @@ describe('service: original resource', function () {
   });
 
   it('should send a request to say goodbye', function () {
-    $httpBackend.expect('GET', '/say-goodbye').respond(200, 'success');
-      SayHello.sayGoodbye();
+    $httpBackend.expect('GET', '/say-goodbye').respond(200, ['success']);
+    var onError = {
+      run: function(response) {}
+    }
+    spyOn(onError, 'run')
+    SayHello.sayGoodbye(onError.run);
     $httpBackend.flush();
     expect(SayHello.saidGoodbye).toBe(true);
+    expect(onError.run).toHaveBeenCalled();
   });
 
 });
